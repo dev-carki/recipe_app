@@ -9,6 +9,7 @@ from django.utils.translation import gettext_lazy as _
 from core import models
 
 
+# 어드민 페이지에서 유저 등록하는 기능
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
     ordering = ['id']
